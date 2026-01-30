@@ -1,6 +1,6 @@
 import os
-from OCR import process_all_resumes
-from judge import main_evaluation_loop
+from src.OCR import process_all_resumes
+from src.judge import main_evaluation_loop
 
 
 def main():
