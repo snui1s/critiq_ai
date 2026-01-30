@@ -12,9 +12,11 @@ An automated resume evaluation system using AI Agents to analyze and score candi
 
 1. **Python 3.10+**
 2. **OpenAI API Key:** Create a `.env` file in the root directory:
+
    ```env
    OPENAI_API_KEY=your_api_key_here
    ```
+
 3. **Project Prep:**
    - Place your resume PDF files in the `resumes/` folder.
    - Edit `job_description.txt` with your desired job requirements.
@@ -24,10 +26,13 @@ An automated resume evaluation system using AI Agents to analyze and score candi
 ### Option 1: Using `uv` (Recommended)
 
 1. **Create & Sync Environment:**
+
    ```powershell
    uv sync
    ```
+
 2. **Run the Evaluation:**
+
    ```powershell
    uv run main.py
    ```
@@ -35,17 +40,22 @@ An automated resume evaluation system using AI Agents to analyze and score candi
 ### Option 2: Using standard Python & pip
 
 1. **Create Virtual Environment:**
+
    ```powershell
    python -m venv .venv
    ```
+
 2. **Activate Environment:**
    - Windows: `.\.venv\Scripts\activate`
    - Mac/Linux: `source .venv/bin/activate`
 3. **Install Dependencies:**
+
    ```powershell
    pip install -e .
    ```
+
 4. **Run the Evaluation:**
+
    ```powershell
    python main.py
    ```
