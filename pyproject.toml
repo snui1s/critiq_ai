@@ -1,0 +1,14 @@
+[project]
+name = "prose-parsed-peril"
+version = "0.1.0"
+description = "The not-so-best resume judge AI agent for Cool HR"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain-openai",
+    "langgraph",
+    "easyocr",
+    "pymupdf",
+    "python-dotenv",
+    "langchain-ollama",
+]
